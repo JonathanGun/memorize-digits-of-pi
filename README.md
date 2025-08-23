@@ -33,15 +33,15 @@ Numpad used:
 many triplets
 
 * `3. 1415 926 535-8 979 323` are triplets
-* `84-626` even digits ↯
-* `27950` question mark `?` pattern
-* `28841 971` ends with `841,971` left then down
-* `69-399-37` right side of numpad
-* `5-10-58-20` multiple of 5
-* `4459 230` swipe to the right ⤴ then ↩
-* `7-8-16-40` multiple of 8
-* `628 6208 998 6280` repeating `628`s
-* `34825 34211` starts with `34` which is half of `68` - previous pattern is `628`
+* `84-626`; even digits ↯
+* `27950`; question mark `?` pattern
+* `28841 971`; ends with `841,971` left then down
+* `69-399-37`; right side of numpad
+* `5-10-58-20`; multiple of 5
+* `4459 230`; swipe to the right ⤴ then ↩
+* `7-8-16-40`; multiple of 8
+* `628 6208 998 6280`; repeating `628`s
+* `34825 34211`; starts with `34` which is half of `68` - previous pattern is `628`
 
 ## 101 to 200
 
@@ -58,17 +58,17 @@ many triplets
 
 many grouped by 5, recognizing patterns in numpad
 
-* `82148` similar to `28841`
-* `32823` palindrome
-* `06647 09364` starts with `0`
-* `46095-50582-23172` start digit = end digit
+* `82148`; similar to `28841`
+* `32823`; palindrome
+* `06647 09364`; starts with `0`
+* `46095-50582-23172`; start digit = end digit
 * (here I start remembering by patterns)
-* `53594` ↢
-* `08128` goes up
-* `48111 74502 84102` goes down
-* `05559 64462` triple five
-* `29489` starts with 2 (same as last digit)
-* `54930` `54` goes down, `930` goes down, multiple of 3
+* `53594`; ↢
+* `08128`; goes up
+* `48111 74502 84102`; goes down
+* `05559 64462`; triple five
+* `29489`; starts with 2 (same as last digit)
+* `54930` `54`; goes down, `930` goes down, multiple of 3
 
 ## 201 to 300
 
@@ -105,7 +105,34 @@ many **double digits**
 
 ## 301 to 400
 
-TODO
+```txt
+72458
+7 00 66 06
+315588
+174 88
+15 209 209 6
+28 29 254
+0917 15
+364 36 789 259
+036 00 11 33 053 054
+8820466 5213
+84146
+951 941 511
+6094
+```
+
+sweeping pattern, cross pattern. many `0` in the middle
+
+* `7 00 66 06`; repeating
+* `315588`; `5` and `8` double. going up.
+* `174 88`; `174` on the left column, ends with `88` same with previous line
+* `15 209 209 6`; repeating `209`; somehow sweeping from `174` (left), then middle, then right diagonally. then goes to `6`.
+* `28 29 254`; left thumb at `2`; `28` `29` consecutive number
+* `364 36 789 259`
+* `036 00 11 33 053 054`; avoid top row; `0`, `1`, and `3` double. `053` and `054` consecutive
+* `8820466 5213`; creates `cross` pattern.
+* `84146`; almost palindrome
+* `951 941 511`; similar numbers
 
 ## Speedrun
 
@@ -113,15 +140,17 @@ TODO
 
 |||
 |-|-|
-| Highest digits | 305 |
-| 0 to 100 | `13s` |
-| 0 to 200 | `38s` |
-| 0 to 300 | `59s` |
+| Highest digits | 403 |
+| 0 to 100  | `13s`    |
+| 0 to 200  | `35s`    |
+| 0 to 300  | `59s`    |
+| 0 to 400  | `2m 20s` |
 
 ### Highest Digits
 
 | Date     | N   |
 |----------|-----|
+| 20250823 | 403 |
 | 20250822 | 305 |
 | 20250820 | 205 |
 | 20250819 | 120 |
@@ -136,6 +165,7 @@ TODO
 
 | Date     | t     |
 |----------|-------|
+| 20250824 | `35s` |
 | 20250823 | `38s` |
 | 20250822 | `41s` |
 
@@ -145,6 +175,13 @@ TODO
 |----------|----------|
 | 20250823 | `59s`    |
 | 20250822 | `2m 59s` |
+
+
+### 0 to 300
+
+| Date     | t        |
+|----------|----------|
+| 20250823 | `2m 20s` |
 
 ### Splits
 
@@ -165,5 +202,12 @@ TODO
 
 | Date     | t        |
 |----------|----------|
-| 20250823 | `25s`    |
+| 20250823 | `16s`    |
 | 20250822 | `1m 34s` |
+
+#### 301 to 400
+
+| Date     | t        |
+|----------|----------|
+| 20250824 | `19s`    |
+| 20250823 | `1m 43s` |
