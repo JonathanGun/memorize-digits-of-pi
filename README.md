@@ -140,16 +140,17 @@ sweeping pattern, cross pattern. many `0` in the middle
 
 |||
 |-|-|
-| Highest digits | 403 |
+| Highest digits | 405 |
 | 0 to 100  | `13s`    |
-| 0 to 200  | `35s`    |
-| 0 to 300  | `59s`    |
-| 0 to 400  | `2m 20s` |
+| 0 to 200  | `32s`    |
+| 0 to 300  | `57s`    |
+| 0 to 400  | `1m 23s` |
 
 ### Highest Digits
 
 | Date     | N   |
 |----------|-----|
+| 20250824 | 405 |
 | 20250823 | 403 |
 | 20250822 | 305 |
 | 20250820 | 205 |
@@ -165,7 +166,7 @@ sweeping pattern, cross pattern. many `0` in the middle
 
 | Date     | t     |
 |----------|-------|
-| 20250824 | `35s` |
+| 20250824 | `32s` |
 | 20250823 | `38s` |
 | 20250822 | `41s` |
 
@@ -173,14 +174,15 @@ sweeping pattern, cross pattern. many `0` in the middle
 
 | Date     | t        |
 |----------|----------|
+| 20250824 | `57s`    |
 | 20250823 | `59s`    |
 | 20250822 | `2m 59s` |
 
-
-### 0 to 300
+### 0 to 400
 
 | Date     | t        |
 |----------|----------|
+| 20250824 | `1m 23s` |
 | 20250823 | `2m 20s` |
 
 ### Splits
@@ -195,6 +197,7 @@ sweeping pattern, cross pattern. many `0` in the middle
 
 | Date     | t     |
 |----------|-------|
+| 20250824 | `13s` |
 | 20250823 | `17s` |
 | 20250822 | `23s` |
 
