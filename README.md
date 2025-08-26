@@ -177,7 +177,7 @@ clockwise patterns, left / right thumb hold in place, while the other swipes som
 | 0 to 200  | `27s`    |
 | 0 to 300  | `51s`    |
 | 0 to 400  | `1m 19s` |
-| 0 to 500  | `1m 43s` |
+| 0 to 500  | `1m 35s` |
 
 ### Highest Digits
 
@@ -228,7 +228,7 @@ clockwise patterns, left / right thumb hold in place, while the other swipes som
 
 | Date     | t        |
 |----------|----------|
-| 20250826 | `1m 43s` |
+| 20250826 | `1m 35s` |
 | 20250825 | `2m 58s` |
 
 ### Splits
@@ -259,10 +259,11 @@ clockwise patterns, left / right thumb hold in place, while the other swipes som
 
 | Date     | t        |
 |----------|----------|
+| 20250826 | `14s`    |
 | 20250824 | `19s`    |
 | 20250823 | `1m 43s` |
 
-### 491 to 500
+### 401 to 500
 
 | Date     | t        |
 |----------|----------|
