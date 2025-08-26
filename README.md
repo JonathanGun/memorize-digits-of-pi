@@ -140,22 +140,31 @@ sweeping pattern, cross pattern. many `0` in the middle
 33 0 57270
 3657
 59591953
-0921 8611 738193 2611
-793105 11
+0921 8611
+738193 2611
+79310 511
 85480 744 6237
-99 62 74 9567
+9962 74 95 67
 35188
 575 272
-489
-12279
+489 12279
 38183
 01 19491 2
 ```
 
-left / right thumb hold in place, while the other swipes some pattern.
-some palindromes, some triplets
+clockwise patterns, left / right thumb hold in place, while the other swipes some pattern. some palindromes, some triplets.
 
-* TODO add each detail here
+* `33 0 57270`; keep left thumb on `7`, swipe right thumb down from `5` to `0`
+* `59591953`; create X, double `59`, ends on bottom-right.
+* `0921 8611`; clockwise swirl
+* `738193 2611`; avoid middlw row, end with `611` again
+* `79310 511`; clockwise again, but wider. end with `511`.
+* `85480 744 6237`; `85480` (small clockwise), `6237` (small counter clockwise).
+* `9962 74 95 67`; small clockwises `9962`, `74`, `95`.
+* `575 272`; double palindrome triplets. left thumb on `7`
+* `489 12279`; clockwise pattern.
+* `38183`; palindrome
+* `01 19491 2`; another palindrome
 
 ## Speedrun
 
@@ -163,17 +172,19 @@ some palindromes, some triplets
 
 |||
 |-|-|
-| Highest digits | 500 |
-| 0 to 100  | `13s`    |
-| 0 to 200  | `32s`    |
-| 0 to 300  | `57s`    |
-| 0 to 400  | `1m 23s` |
-| 0 to 500  | `-m --s` |
+| Highest digits | 501 |
+| 0 to 100  | `12s`    |
+| 0 to 200  | `27s`    |
+| 0 to 300  | `51s`    |
+| 0 to 400  | `1m 19s` |
+| 0 to 500  | `1m 43s` |
 
 ### Highest Digits
 
 | Date     | N   |
 |----------|-----|
+| 20250826 | 501 |
+| 20250825 | 500 |
 | 20250824 | 405 |
 | 20250823 | 403 |
 | 20250822 | 305 |
@@ -184,12 +195,14 @@ some palindromes, some triplets
 
 | Date     | t     |
 |----------|-------|
+| 20250826 | `12s` |
 | 20250822 | `13s` |
 
 ### 0 to 200
 
 | Date     | t     |
 |----------|-------|
+| 20250826 | `27s` |
 | 20250824 | `32s` |
 | 20250823 | `38s` |
 | 20250822 | `41s` |
@@ -198,6 +211,7 @@ some palindromes, some triplets
 
 | Date     | t        |
 |----------|----------|
+| 20250826 | `51s`    |
 | 20250824 | `57s`    |
 | 20250823 | `59s`    |
 | 20250822 | `2m 59s` |
@@ -206,6 +220,7 @@ some palindromes, some triplets
 
 | Date     | t        |
 |----------|----------|
+| 20250826 | `1m 14s` |
 | 20250824 | `1m 23s` |
 | 20250823 | `2m 20s` |
 
@@ -213,7 +228,8 @@ some palindromes, some triplets
 
 | Date     | t        |
 |----------|----------|
-| 20250825 | `-m --s` |
+| 20250826 | `1m 43s` |
+| 20250825 | `2m 58s` |
 
 ### Splits
 
@@ -221,6 +237,7 @@ some palindromes, some triplets
 
 | Date     | t     |
 |----------|-------|
+| 20250826 | `12s` |
 | 20250822 | `13s` |
 
 #### 101 to 200
@@ -249,5 +266,6 @@ some palindromes, some triplets
 
 | Date     | t        |
 |----------|----------|
+| 20250826 | `19s`    |
 | 20250825 | `49s`    |
 | 20250824 | `46s`    |
