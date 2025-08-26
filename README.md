@@ -134,17 +134,41 @@ sweeping pattern, cross pattern. many `0` in the middle
 * `84146`; almost palindrome
 * `951 941 511`; similar numbers
 
+## 401 to 500
+
+```txt
+33 0 57270
+3657
+59591953
+0921 8611 738193 2611
+793105 11
+85480 744 6237
+99 62 74 9567
+35188
+575 272
+489
+12279
+38183
+01 19491 2
+```
+
+left / right thumb hold in place, while the other swipes some pattern.
+some palindromes, some triplets
+
+* TODO add each detail here
+
 ## Speedrun
 
 ### Summary
 
 |||
 |-|-|
-| Highest digits | 405 |
+| Highest digits | 500 |
 | 0 to 100  | `13s`    |
 | 0 to 200  | `32s`    |
 | 0 to 300  | `57s`    |
 | 0 to 400  | `1m 23s` |
+| 0 to 500  | `-m --s` |
 
 ### Highest Digits
 
@@ -185,6 +209,12 @@ sweeping pattern, cross pattern. many `0` in the middle
 | 20250824 | `1m 23s` |
 | 20250823 | `2m 20s` |
 
+### 0 to 500
+
+| Date     | t        |
+|----------|----------|
+| 20250825 | `-m --s` |
+
 ### Splits
 
 ### 0 to 100
@@ -214,3 +244,10 @@ sweeping pattern, cross pattern. many `0` in the middle
 |----------|----------|
 | 20250824 | `19s`    |
 | 20250823 | `1m 43s` |
+
+### 491 to 500
+
+| Date     | t        |
+|----------|----------|
+| 20250825 | `49s`    |
+| 20250824 | `46s`    |
