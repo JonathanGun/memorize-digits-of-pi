@@ -15,6 +15,18 @@ Numpad used:
 | 1 | 2 | 3 |
 | . | 0 | . |
 
+This technique has brought me to `600` digits!
+
+|||
+|-|-|
+| Highest digits | 600 |
+| 0 to 100  | `12s`    |
+| 0 to 200  | `27s`    |
+| 0 to 300  | `51s`    |
+| 0 to 400  | `1m 19s` |
+| 0 to 500  | `1m 35s` |
+| 0 to 600  | `2m 29s` |
+
 ## 0 to 100
 
 ```txt
@@ -166,18 +178,38 @@ clockwise patterns, left / right thumb hold in place, while the other swipes som
 * `38183`; palindrome
 * `01 19491 2`; another palindrome
 
+## 501 to 600
+
+```txt
+98 3367 3362 44065 66430 860
+213 9494 639 522
+47371
+9070 2179 860
+943 702 7705
+392 17176
+293 17675
+238 467 4818 467 6694
+05132
+```
+
+starting with some double digits, has `392`, `293`, `238` pattern and some *almost* palindrome.
+
+* `98 3367 3362 44065 66430 860`; starts with double digits `33`, `44`, `66`. Ends with `860`
+* `47371`; almost palindrome
+* `9070 2179 860`; starts with `9070` which makes V shape. Ends with `860` again.
+* `943 702 7705`; starts with another V shape, but rotated 90 degree.
+* `392 17176`; start with `392`, then some `17` (continue swirling clockwise)
+* `293 17675`; start with `293` (almost the same as previous), then continue swirling clockwise again
+* `238 467 4818 467 6694`; another similar start. then long chain of *almost* palindrome. `467 4818 467`.
+* `05132`; creates a *plus* pattern.
+
+## 601 to 700
+
+```txt
+TODO
+```
+
 ## Speedrun
-
-### Summary
-
-|||
-|-|-|
-| Highest digits | 501 |
-| 0 to 100  | `12s`    |
-| 0 to 200  | `27s`    |
-| 0 to 300  | `51s`    |
-| 0 to 400  | `1m 19s` |
-| 0 to 500  | `1m 35s` |
 
 ### Highest Digits
 
@@ -231,6 +263,19 @@ clockwise patterns, left / right thumb hold in place, while the other swipes som
 | 20250826 | `1m 35s` |
 | 20250825 | `2m 58s` |
 
+### 0 to 600
+
+| Date     | t        |
+|----------|----------|
+| 20250827 | `2m 29s` |
+| 20250826 | `3m 18s` |
+
+### 0 to 700
+
+| Date     | t        |
+|----------|----------|
+| 20250827 | `-m --s` |
+
 ### Splits
 
 ### 0 to 100
@@ -270,3 +315,15 @@ clockwise patterns, left / right thumb hold in place, while the other swipes som
 | 20250826 | `19s`    |
 | 20250825 | `49s`    |
 | 20250824 | `46s`    |
+
+### 501 to 600
+
+| Date     | t        |
+|----------|----------|
+| 20250826 | `23s`    |
+
+### 501 to 600
+
+| Date     | t        |
+|----------|----------|
+| 20250827 | `--s`    |
